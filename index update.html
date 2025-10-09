@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lehait Style Blog</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #ff6b6b;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: white;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+    }
+    .post {
+      width: 300px;
+      background: white;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .post:hover {
+      transform: translateY(-5px);
+    }
+    .post img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+    .post-content {
+      padding: 15px;
+    }
+    .post-content h2 {
+      margin: 0 0 10px;
+      font-size: 1.1em;
+      color: #ff6b6b;
+    }
+    .post-content p {
+      margin: 0;
+      color: #555;
+      font-size: 0.95em;
+    }
+    footer {
+      background: #ff6b6b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lehait Style Blog</h1>
+  </header>
+
+  <nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Bài viết</a>
+    <a href="#">Liên hệ</a>
+  </nav>
+
+  <main>
+    <div class="post">
+      <img src="https://via.placeholder.com/300x150" alt="Bài viết 1">
+      <div class="post-content">
+        <h2>Bài viết đầu tiên</h2>
+        <p>Nội dung mô tả ngắn gọn cho bài viết. Bạn có thể thay bằng nội dung thật.</p>
+      </div>
+    </div>
+
+    <div class="post">
+      <img src="https://via.placeholder.com/300x150" alt="Bài viết 2">
+      <div class="post-content">
+        <h2>Bài viết thứ hai</h2>
+        <p>Bài viết này hiển thị tương tự như các bài khác trong blog của bạn.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Lehait Style Blog
+  </footer>
+</body>
+</html>
+
+</html>
